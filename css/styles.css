@@ -36,6 +36,9 @@ p {
 img {
   display: block;
 }
+li {
+  list-style: none;
+}
 .container {
   width: 1166px;
   margin: 0 auto;
@@ -183,6 +186,36 @@ img {
 
   margin-bottom: 72px;
 }
+.about-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: var(--secondary);
+  margin-bottom: 8px;
+}
+.antena {
+  height: 64px;
+  width: 59.717105865478516px;
+}
+.clock {
+  height: 63.99992370605469px;
+  width: 61.21834182739258px;
+}
+.diagram {
+  height: 49.0855827331543px;
+  width: 64.00010681152344px;
+}
+.astronaut {
+  height: 55.46323013305664px;
+  width: 50.1336555480957px;
+  left: 0px;
+  top: 4.779327392578125px;
+  border-radius: 0px;
+}
+.about-icon {
+}
 .about-studio {
   padding-top: 120px;
 }
@@ -288,4 +321,39 @@ img {
   letter-spacing: 0.02em;
   color: var(--footerText);
   margin-top: 16px;
+}
+.soc-item {
+  width: 40px;
+  height: 40px;
+}
+.soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 8px;
+}
+
+.soc-item-link {
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: var(--bgColor);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-inst {
+  background-image: url(/images/instagram.svg);
+}
+
+.icon-twitter {
+  background-image: url(/images/twitter.svg);
+}
+.icon-facebook {
+  background-image: url(/images/facebook.svg);
+}
+.icon-linked {
+  background-image: url(/images/linkedin.svg);
 }
