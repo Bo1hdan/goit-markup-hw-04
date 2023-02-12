@@ -130,7 +130,6 @@ li {
   margin: 0 auto;
   letter-spacing: 0.02em;
   color: var(--white);
-  /* background: var(--mainColor); */
 }
 .hero-section {
   padding: 188px 0;
@@ -138,8 +137,6 @@ li {
   background-repeat: no-repeat;
   background-size: 1440px 600px;
   background-position: center;
-
-  /* background-color: var(--mainColor); */
 }
 .hero-wrap {
   text-align: center;
