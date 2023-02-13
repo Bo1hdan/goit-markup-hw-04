@@ -110,6 +110,7 @@ li {
 .link-accent:hover,
 .link-accent:focus {
   color: var(--accent);
+  background-color: inherit;
 }
 .nav-contact {
   font-style: normal;
@@ -271,13 +272,13 @@ li {
 .sample-item {
   border: 1px solid #e7e9fc;
 }
-.sample-item:is(:hover, :focus) {
+.sample-item:hover,
+.sample-item:focus {
   border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-.company-header {
+*/ .company-header {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -361,7 +362,8 @@ li {
   align-items: center;
   background-color: var(--bgColor);
 }
-.soc-item-link:hover {
+.soc-item-link:hover,
+:focus {
   background-color: var(--accent);
 }
 .customers {
@@ -433,21 +435,22 @@ li {
 .footer-soc-item {
   width: 40px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
-.footer-soc-item:hover {
+.soc-link:hover,
+.soc-link:focus {
   background-color: #31d0aa;
 }
+
 .soc-link {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
-.soc-icon {
-}
+
 /* .soc-item {
   width: 40px;
   height: 40px;
