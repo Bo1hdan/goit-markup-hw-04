@@ -110,7 +110,7 @@ li {
 .link-accent:hover,
 .link-accent:focus {
   color: var(--accent);
-  background-color: inherit;
+  /* background-color: inherit; */
 }
 .nav-contact {
   font-style: normal;
@@ -363,7 +363,7 @@ li {
   background-color: var(--bgColor);
 }
 .soc-item-link:hover,
-:focus {
+.soc-item-link:focus {
   background-color: var(--accent);
 }
 .customers {
@@ -406,7 +406,7 @@ li {
 .customers-link:is(:hover, :focus) {
   border-color: var(--accent);
   color: var(--accent);
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 /* .customers-link:is(:hover, :focus) .customers-icon {
   fill: var(--accent);
