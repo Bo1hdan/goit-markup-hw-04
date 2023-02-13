@@ -398,16 +398,19 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #afb1b8;
 }
 .customers-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .customers-link:is(:hover, :focus) {
   border-color: var(--accent);
+  color: var(--accent);
+  background-color: #fff;
 }
-.customers-link:is(:hover, :focus) .customers-icon {
+/* .customers-link:is(:hover, :focus) .customers-icon {
   fill: var(--accent);
-}
+} */
 .wrap {
   display: flex;
   gap: 120px;
